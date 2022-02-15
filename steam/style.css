@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: ms-light;
+    src: url(fonts/MotivaSansThin.ttf);
+}
+
+:root {
+    --cor-purpura: #A30065;
+    --cor-laranja: #F08853;
+    --cor-roxa: #AB18F0;
+    --cor-verde: #0d643a;
+}
+
+* {
+    margin: 0; padding: 0; font-family: 'ms-light';
+}
+
+body{
+    background-image: url('imagens/ciri.jpg');
+    font-weight: lighter;
+    font-size: small;
+}
+
+main {
+    margin: auto;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.425);
+    background-image: linear-gradient(70deg, #0d643a, #61063e, #F08853);
+    min-width: 300px;
+    max-width: 1000px;
+    color: white;
+}
+
+header {
+    max-height: 200px;
+    padding: 20px;
+}
+
+header h1, p {
+    position: relative; bottom: 170px; left: 210px;
+}
+
+p {
+    padding-top: 10px;
+}
+
+nav {
+    border-radius: 4px;
+    background-color: #2c011cb4;
+    max-width: 280px;
+    margin-left: 700px;
+}
+
+nav > h2, a {
+    display: block;
+    padding: 10px;
+    font-size: large;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main > section {
+    margin-left: 10px;
+    background-color: #0738209f;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 650px;
+    position: relative; top: -625px;
+}
+
+section > h2 {
+    background-color: rgba(1, 55, 117, 0.658);
+    border-radius: 5px;
+    margin: -10px -10px -10px -10px;
+    padding: 5px;
+}

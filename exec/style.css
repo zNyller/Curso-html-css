@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #E0DDD3;
+    color: white;
+}
+
+header {
+    background-color: #F5CF25;
+    color: black;
+    margin: auto;
+    text-align: center;
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.568);
+    padding: 20px;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.856);
+    max-width: 1200px;
+    min-width: 400px;
+    margin: auto;
+    box-shadow: 3px 5px 8px black;
+    padding: 10px;
+    text-align: center;
+    text-align: justify;
+}
+
+h2, h3, p {
+    padding: 8px;
+}
+ 
+img {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+footer {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
